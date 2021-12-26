@@ -5,11 +5,11 @@
 marks = int(input("Full marks of the Examination : "))
 num = marks * 5
 # collecting and storing the data of marks per subject
-ENGLISH = int(input("Enter the marks of english: "))
-MATHS = int(input("Enter the marks of math: "))
-SOCIALSCIENCE = int(input("Enter the marks of Social Science: "))
-SCIENCE = int(input("Enter the marks of Science: "))
-HINDI = int(input("Enter the marks of Hindi: "))
+ENGLISH = float(input("Enter the marks of english: "))
+MATHS = float(input("Enter the marks of math: "))
+SOCIALSCIENCE = float(input("Enter the marks of Social Science: "))
+SCIENCE = float(input("Enter the marks of Science: "))
+HINDI = float(input("Enter the marks of Hindi: "))
 # finding the total marks
 print("Total marks scored =", ENGLISH + MATHS + SOCIALSCIENCE + SCIENCE + HINDI)
 # storing the total marks in the variable 'total'
